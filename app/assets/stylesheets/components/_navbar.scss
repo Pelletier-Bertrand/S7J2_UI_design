@@ -1,0 +1,24 @@
+nav {
+  background-image: linear-gradient(to bottom right, #00080e, #051a2c);
+position: fixed;
+width: 100%;
+top: 0px;
+margin: 30px;
+}
+.nav-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.nav-wrap li, .nav-wrap a  {
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
+  color: white;
+  margin: 0px 10px;
+}
+.nav-avatar {
+  align-self: flex-end;
+}

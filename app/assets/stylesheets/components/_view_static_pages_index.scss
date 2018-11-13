@@ -1,0 +1,106 @@
+/*************************************
+card
+*************************************/
+.card-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+
+.rounded-circle {
+  width: 50%;
+  border-radius: 50%;
+  box-shadow: 4px 2px 4px rgb(6, 8, 15);
+  margin-left: 25%;
+  margin-bottom: 10px;
+}
+.card-profile:hover {
+  transition: all 0.4s ease 0s;
+  transform: scale(1.1);
+}
+.card-body {
+  font-family: 'Poiret One', cursive;
+  font-size: 20px;
+  text-align: center;
+}
+.card-body a {
+  text-decoration: none;
+}
+.card-body h4 {
+  color: rgb(1, 1, 12);
+  font-family: 'Poiret One', cursive;
+  font-size: 24px;
+}
+.card-footer i {
+  margin-top: 10px;
+  color: rgb(32, 32, 70);
+  font-size: 35px;
+}
+/*************************************
+tab
+*************************************/
+.tabs i {
+  font-size: 35px;
+  color: rgb(32, 32, 70);
+  margin-left: 90px;
+}
+.tabbed p {
+  font-family: 'Poiret One', cursive;
+  color: rgb(17, 17, 39);
+}
+.tabs label {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Poiret One', cursive;
+}
+.tabs
+{
+	position: relative;
+  clear: both;
+  margin-left: 26%;
+  margin-top: 50px;
+}
+
+.tabs .tab
+{
+  float: left;
+  padding: 20px;
+}
+
+.tabs .tab .content
+{
+	position: absolute;
+	background-color: white;
+	left: 0px;
+  width: 60%;
+  font-family: 'Poiret One', cursive;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  font-weight: bold;
+  background-color: #060720;
+  border-radius: 10px;
+}
+
+.checkboxtab
+{
+	display: none;
+}
+
+.tab label
+{
+	margin-right: 10px;
+}
+
+.checkboxtab:checked ~ label
+{
+  color: #060720;
+}
+
+.checkboxtab:checked ~ .content
+{
+	z-index: 1;
+}
